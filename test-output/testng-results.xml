@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="6" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-05T11:04:22 IST" name="Bookshelves Suite" finished-at="2026-05-05T11:10:48 IST" duration-ms="386492">
+    <groups>
+    </groups>
+    <test started-at="2026-05-05T11:04:22 IST" name="Bookshelves Tests" finished-at="2026-05-05T11:10:48 IST" duration-ms="386492">
+      <class name="tests.TC08_DiscountThresholdTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TC08_DiscountThresholdTest@f001896]" started-at="2026-05-05T11:07:14 IST" name="setUp" finished-at="2026-05-05T11:07:36 IST" duration-ms="22415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.TC08_DiscountThresholdTest@f001896]" started-at="2026-05-05T11:07:36 IST" name="initPage" finished-at="2026-05-05T11:07:36 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="validateDiscountThreshold(int)[pri:0, instance:tests.TC08_DiscountThresholdTest@f001896]" started-at="2026-05-05T11:07:36 IST" name="validateDiscountThreshold" data-provider="discountThresholds" finished-at="2026-05-05T11:07:43 IST" duration-ms="6995" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDiscountThreshold -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC08_DiscountThresholdTest@f001896]" started-at="2026-05-05T11:07:43 IST" name="tearDown" finished-at="2026-05-05T11:07:51 IST" duration-ms="7525" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateDiscountThreshold status=SUCCESS method=TC08_DiscountThresholdTest.validateDiscountThreshold(int)[pri:0, instance:tests.TC08_DiscountThresholdTest@f001896] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TC08_DiscountThresholdTest@f001896]" started-at="2026-05-05T11:07:51 IST" name="setUp" finished-at="2026-05-05T11:08:10 IST" duration-ms="18695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.TC08_DiscountThresholdTest@f001896]" started-at="2026-05-05T11:08:10 IST" name="initPage" finished-at="2026-05-05T11:08:10 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="validateDiscountThreshold(int)[pri:0, instance:tests.TC08_DiscountThresholdTest@f001896]" started-at="2026-05-05T11:08:10 IST" name="validateDiscountThreshold" data-provider="discountThresholds" finished-at="2026-05-05T11:08:30 IST" duration-ms="20012" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDiscountThreshold -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC08_DiscountThresholdTest@f001896]" started-at="2026-05-05T11:08:30 IST" name="tearDown" finished-at="2026-05-05T11:08:37 IST" duration-ms="7058" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateDiscountThreshold status=SUCCESS method=TC08_DiscountThresholdTest.validateDiscountThreshold(int)[pri:0, instance:tests.TC08_DiscountThresholdTest@f001896] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TC08_DiscountThresholdTest@f001896]" started-at="2026-05-05T11:08:37 IST" name="setUp" finished-at="2026-05-05T11:08:53 IST" duration-ms="16596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.TC08_DiscountThresholdTest@f001896]" started-at="2026-05-05T11:08:53 IST" name="initPage" finished-at="2026-05-05T11:08:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="validateDiscountThreshold(int)[pri:0, instance:tests.TC08_DiscountThresholdTest@f001896]" started-at="2026-05-05T11:08:53 IST" name="validateDiscountThreshold" data-provider="discountThresholds" finished-at="2026-05-05T11:08:56 IST" duration-ms="3157" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[40]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: stale element not found in the current frame
+  (Session info: chrome=146.0.7680.178)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [717dce80357455aa82214c0385fb3817, getElementText {id=f.99AC8399F289DAB48133E6EB02AE8042.d.C6749B1AD8EF992905D96584C66EDC4C.e.258}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2481517\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53652}, goog:processID: 25320, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53652/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (717dce80357455aa82214c0385fb3817)] -> xpath: //span[contains(@class,'iR4SB')]]
+Session ID: 717dce80357455aa82214c0385fb3817]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=146.0.7680.178)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [717dce80357455aa82214c0385fb3817, getElementText {id=f.99AC8399F289DAB48133E6EB02AE8042.d.C6749B1AD8EF992905D96584C66EDC4C.e.258}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2481517\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53652}, goog:processID: 25320, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53652/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (717dce80357455aa82214c0385fb3817)] -> xpath: //span[contains(@class,'iR4SB')]]
+Session ID: 717dce80357455aa82214c0385fb3817
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:191)
+at pages.BookShelvesPage2.countProductsWithDiscountGreaterThan(BookShelvesPage2.java:275)
+at tests.TC08_DiscountThresholdTest.validateDiscountThreshold(TC08_DiscountThresholdTest.java:34)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDiscountThreshold -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC08_DiscountThresholdTest@f001896]" started-at="2026-05-05T11:08:56 IST" name="tearDown" finished-at="2026-05-05T11:09:03 IST" duration-ms="6776" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateDiscountThreshold status=FAILURE method=TC08_DiscountThresholdTest.validateDiscountThreshold(int)[pri:0, instance:tests.TC08_DiscountThresholdTest@f001896] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TC08_DiscountThresholdTest@f001896]" started-at="2026-05-05T11:09:03 IST" name="setUp" finished-at="2026-05-05T11:09:13 IST" duration-ms="9962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.TC08_DiscountThresholdTest@f001896]" started-at="2026-05-05T11:09:13 IST" name="initPage" finished-at="2026-05-05T11:09:13 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="validateDiscountThreshold(int)[pri:0, instance:tests.TC08_DiscountThresholdTest@f001896]" started-at="2026-05-05T11:09:13 IST" name="validateDiscountThreshold" data-provider="discountThresholds" finished-at="2026-05-05T11:09:16 IST" duration-ms="2498" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: stale element not found in the current frame
+  (Session info: chrome=146.0.7680.178)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ad917d4ee7695afe148e15a333912ac3, getElementText {id=f.C98B3E1E56E4923553884C0B50F9889C.d.0BC0ED1CB582B2C46656D11F3A67CFB0.e.245}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2481517\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61531}, goog:processID: 13828, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61531/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ad917d4ee7695afe148e15a333912ac3)] -> xpath: //span[contains(@class,'iR4SB')]]
+Session ID: ad917d4ee7695afe148e15a333912ac3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=146.0.7680.178)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ad917d4ee7695afe148e15a333912ac3, getElementText {id=f.C98B3E1E56E4923553884C0B50F9889C.d.0BC0ED1CB582B2C46656D11F3A67CFB0.e.245}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2481517\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61531}, goog:processID: 13828, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61531/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ad917d4ee7695afe148e15a333912ac3)] -> xpath: //span[contains(@class,'iR4SB')]]
+Session ID: ad917d4ee7695afe148e15a333912ac3
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:191)
+at pages.BookShelvesPage2.countProductsWithDiscountGreaterThan(BookShelvesPage2.java:275)
+at tests.TC08_DiscountThresholdTest.validateDiscountThreshold(TC08_DiscountThresholdTest.java:34)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDiscountThreshold -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC08_DiscountThresholdTest@f001896]" started-at="2026-05-05T11:09:16 IST" name="tearDown" finished-at="2026-05-05T11:09:22 IST" duration-ms="6333" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateDiscountThreshold status=FAILURE method=TC08_DiscountThresholdTest.validateDiscountThreshold(int)[pri:0, instance:tests.TC08_DiscountThresholdTest@f001896] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC08_DiscountThresholdTest -->
+      <class name="tests.TC06_CountShoeRackAbove40k">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TC06_CountShoeRackAbove40k@ccb4b1b]" started-at="2026-05-05T11:04:22 IST" name="setUp" finished-at="2026-05-05T11:04:38 IST" duration-ms="15984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.TC06_CountShoeRackAbove40k@ccb4b1b]" started-at="2026-05-05T11:04:38 IST" name="initPage" finished-at="2026-05-05T11:04:38 IST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="countProductsAbove40000()[pri:0, instance:tests.TC06_CountShoeRackAbove40k@ccb4b1b]" started-at="2026-05-05T11:04:38 IST" name="countProductsAbove40000" finished-at="2026-05-05T11:04:41 IST" duration-ms="3472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countProductsAbove40000 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC06_CountShoeRackAbove40k@ccb4b1b]" started-at="2026-05-05T11:04:41 IST" name="tearDown" finished-at="2026-05-05T11:04:47 IST" duration-ms="6182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=countProductsAbove40000 status=SUCCESS method=TC06_CountShoeRackAbove40k.countProductsAbove40000()[pri:0, instance:tests.TC06_CountShoeRackAbove40k@ccb4b1b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC06_CountShoeRackAbove40k -->
+      <class name="tests.TC09_CountDiscountAbove40Percent">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TC09_CountDiscountAbove40Percent@6b44435b]" started-at="2026-05-05T11:09:22 IST" name="setUp" finished-at="2026-05-05T11:09:42 IST" duration-ms="20416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.TC09_CountDiscountAbove40Percent@6b44435b]" started-at="2026-05-05T11:09:42 IST" name="initPage" finished-at="2026-05-05T11:09:42 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="countDiscountAbove40Percent()[pri:0, instance:tests.TC09_CountDiscountAbove40Percent@6b44435b]" started-at="2026-05-05T11:09:42 IST" name="countDiscountAbove40Percent" finished-at="2026-05-05T11:09:54 IST" duration-ms="11866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countDiscountAbove40Percent -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC09_CountDiscountAbove40Percent@6b44435b]" started-at="2026-05-05T11:09:54 IST" name="tearDown" finished-at="2026-05-05T11:10:02 IST" duration-ms="7907" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=countDiscountAbove40Percent status=SUCCESS method=TC09_CountDiscountAbove40Percent.countDiscountAbove40Percent()[pri:0, instance:tests.TC09_CountDiscountAbove40Percent@6b44435b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC09_CountDiscountAbove40Percent -->
+      <class name="tests.TC07_PrintNewArrivalProductNames">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TC07_PrintNewArrivalProductNames@2eced48b]" started-at="2026-05-05T11:04:47 IST" name="setUp" finished-at="2026-05-05T11:05:02 IST" duration-ms="14920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.TC07_PrintNewArrivalProductNames@2eced48b]" started-at="2026-05-05T11:05:02 IST" name="initPage" finished-at="2026-05-05T11:05:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="printOnlyNewArrivalProductNames()[pri:0, instance:tests.TC07_PrintNewArrivalProductNames@2eced48b]" started-at="2026-05-05T11:05:02 IST" name="printOnlyNewArrivalProductNames" finished-at="2026-05-05T11:07:06 IST" duration-ms="124043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printOnlyNewArrivalProductNames -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC07_PrintNewArrivalProductNames@2eced48b]" started-at="2026-05-05T11:07:06 IST" name="tearDown" finished-at="2026-05-05T11:07:14 IST" duration-ms="7536" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=printOnlyNewArrivalProductNames status=SUCCESS method=TC07_PrintNewArrivalProductNames.printOnlyNewArrivalProductNames()[pri:0, instance:tests.TC07_PrintNewArrivalProductNames@2eced48b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC07_PrintNewArrivalProductNames -->
+      <class name="tests.TC10_ListProductsDiscountAbove40">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TC10_ListProductsDiscountAbove40@3f0846c6]" started-at="2026-05-05T11:10:02 IST" name="setUp" finished-at="2026-05-05T11:10:28 IST" duration-ms="25865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.TC10_ListProductsDiscountAbove40@3f0846c6]" started-at="2026-05-05T11:10:28 IST" name="initPage" finished-at="2026-05-05T11:10:28 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="listProductsWithDiscountAbove40Percent()[pri:0, instance:tests.TC10_ListProductsDiscountAbove40@3f0846c6]" started-at="2026-05-05T11:10:28 IST" name="listProductsWithDiscountAbove40Percent" finished-at="2026-05-05T11:10:41 IST" duration-ms="12534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listProductsWithDiscountAbove40Percent -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TC10_ListProductsDiscountAbove40@3f0846c6]" started-at="2026-05-05T11:10:41 IST" name="tearDown" finished-at="2026-05-05T11:10:48 IST" duration-ms="7460" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=listProductsWithDiscountAbove40Percent status=SUCCESS method=TC10_ListProductsDiscountAbove40.listProductsWithDiscountAbove40Percent()[pri:0, instance:tests.TC10_ListProductsDiscountAbove40@3f0846c6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC10_ListProductsDiscountAbove40 -->
+    </test> <!-- Bookshelves Tests -->
+  </suite> <!-- Bookshelves Suite -->
+</testng-results>
