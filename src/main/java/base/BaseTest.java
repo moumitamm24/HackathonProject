@@ -25,7 +25,7 @@ public class BaseTest
     @BeforeMethod
     public void setUp() throws Exception
     {
-        // Load config.properties
+        // Loading config.properties
         prop = new Properties();
         FileInputStream fis =
                 new FileInputStream("src/main/resources/config.properties");

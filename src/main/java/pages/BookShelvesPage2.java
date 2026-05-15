@@ -24,7 +24,7 @@ public class BookShelvesPage2 {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
-
+    //using findBy here
     @FindBy(xpath = "//div[@aria-label='Living menu']")
     private WebElement livingMenu;
 
@@ -34,6 +34,7 @@ public class BookShelvesPage2 {
     @FindBy(xpath = "//div[@aria-label='Sort By filter']")
     private WebElement sortByOption;
 
+    //for High to Low
     @FindBy(xpath = "//div[@role='radio' and @aria-label='Sort by Price High to Low']")
     private WebElement priceHighToLowOption;
 
